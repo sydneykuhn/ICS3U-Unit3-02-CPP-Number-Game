@@ -19,11 +19,9 @@ int main() {
     if (number_guessed == answer) {
         std::cout << "You guessed correctly!" << std::endl;
     }
-    
     if (number_guessed != answer) {
         std::cout << "You guessed wrong!" << std::endl;
     }
-    
     std::cout << "" << std::endl;
     std::cout << "The correct answer was 5." << std::endl;
     std::cout << "Done." << std::endl;
